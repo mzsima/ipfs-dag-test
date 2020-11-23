@@ -15,6 +15,13 @@ DAG APIを試してみる。
 ipfs daemon
 ```
 
+## 補足
+ipfsクライアント用jsライブラリを使うので、rollupのビルドでこの辺りのモジュールを追加しないとエラーになる。
+```
+'@rollup/plugin-json'
+'rollup-plugin-node-builtins'
+'rollup-plugin-node-globals'
+```
 
 ## Get started
 
